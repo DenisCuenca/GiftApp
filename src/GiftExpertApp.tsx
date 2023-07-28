@@ -7,7 +7,7 @@ import {AddCategory, GifGrid} from "./components"
 
 
 function GiftExpertApp() {
-  const [categories, setCategories] = useState(["musica"]);
+  const [categories, setCategories] = useState(["ecuador"]);
 
   const addCategorie = (value: any) => {
     if (categories.includes(value)) {
